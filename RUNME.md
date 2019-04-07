@@ -56,4 +56,5 @@ java -jar scratch-0.0.1-SNAPSHOT.jar
 ~~~~
 
 The application should now be hosted in a Tomcat container on 
-[http://localhost:8080]()
+<a href="http://localhost:8080/" 
+    target="_blank">http://localhost:8080</a>
