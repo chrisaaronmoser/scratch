@@ -1,0 +1,9 @@
+spring:
+  output:
+    ansi:
+      # Output colors when runing application
+      enabled: ALWAYS
+  jackson:
+    serialization:
+      # Make JSON print in human readable indentions
+      INDENT_OUTPUT: true
