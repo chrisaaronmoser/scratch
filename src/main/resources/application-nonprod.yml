@@ -7,3 +7,9 @@ spring:
     serialization:
       # Make JSON print in human readable indentions
       INDENT_OUTPUT: true
+management:
+  endpoints:
+    web:
+      exposure:
+        # expose all /actuator enpoints
+        include: '*'

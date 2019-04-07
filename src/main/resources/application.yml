@@ -1,4 +1,6 @@
 spring:
+  # One or more profiles may be active
   profiles:
     active:
+      - nonprod
       - dev
