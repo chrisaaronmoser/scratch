@@ -10,3 +10,6 @@
 
 ### Angular ###
 **/resources/static/
+
+### Maven Wrapper ###
+**/.mvn/
