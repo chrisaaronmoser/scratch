@@ -30,7 +30,7 @@ Before beginning you'll need some dependencies as mentioned in
     ~~~~
 * run Maven wrapper
     ~~~~
-    .mvnw/mvn clean package
+    ./mvnw clean package
     ~~~~
     A Maven wrapper is a way to work with Maven if you don't want to 
     install it on your computer, or you need a specific version of 
