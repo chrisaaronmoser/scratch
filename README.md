@@ -1,20 +1,21 @@
 # Project Description
-This project is to save me a bunch of boilder plate code to create a 
-basic UI from well known and widely used technologies.  
+This project is to save me a bunch of boilder plate configuration to 
+create a basic UI from well known and widely used technologies.  
 
 ## Technologies
 * Spring Framework
-  * boot 2.1.4
-  * web version determined by Spring Boot
-  * lombok version determined by Spring Boot
-  * actuator version determined by Spring Boot
-* Maven 3.6.0
-* Node v11.6.0
-* Angular 7.1.0
-* Java 12
+  * boot (2.1.4)
+  * web (Spring Boot provided)
+  * lombok (Spring Boot provided)
+  * actuator (Spring Boot provided)
+* Maven (3.6.0)
+* Node (v11.6.0)
+* Angular (7.1.0)
+* Java JDK (12)
 
 ## Local Dependencies
 * Java 12 JDK installed
+* git (latest)
 
 ### Tools used
 Not going to mention versions because they change all the time as I 
