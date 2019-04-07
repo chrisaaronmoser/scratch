@@ -1,0 +1,29 @@
+version: '3'
+services:
+  ci:
+    image: jenkinsci/blueocean
+    ports:
+      - "9000:8080"
+    volumes:
+      - jenkins-volume:/var/jenkins_home
+    networks:
+      - ci-stack
+  scanning:
+    image: sonarqube
+    ports:
+      - "9001:9000"
+    volumes:
+      - sonar-config:/opt/sonarqube/conf
+      - sonar-data:/opt/sonarqube/data
+      - sonar-logs:/opt/sonarqube/logs
+      - sonar-extensions:/opt/sonarqube/extensions
+    networks:
+      - ci-stack
+volumes:
+  jenkins-volume:
+  sonar-config:
+  sonar-data:
+  sonar-logs:
+  sonar-extensions:
+networks:
+  ci-stack:
