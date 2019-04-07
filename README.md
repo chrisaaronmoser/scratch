@@ -14,8 +14,8 @@ create a basic UI from well known and widely used technologies.
 * Java JDK (12)
 
 ## Local Dependencies
-* Java 12 JDK installed
-* git (latest)
+* [Java 12 JDK](https://openjdk.java.net/) installed
+* [git (latest)](https://git-scm.com/)
 
 ### Tools used
 Not going to mention versions because they change all the time as I 
