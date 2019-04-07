@@ -36,3 +36,5 @@ update my tool set.  You should update often as well.
 * Visual Studio Code
   * extensions installed
     * none
+# Where to next?
+[RUNME.md](./RUNME.md) - a step by step guide to getting up and running
