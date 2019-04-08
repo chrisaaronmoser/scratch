@@ -1,4 +1,3 @@
-
 ### Intellij ###
 **/.idea/
 **/*.iml
@@ -10,3 +9,9 @@
 
 ### Angular ###
 **/resources/static/
+
+### MacOS ###
+.DS_Store/
+
+### Maven ### 
+**/target/
