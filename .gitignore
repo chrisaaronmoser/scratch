@@ -11,7 +11,7 @@
 **/resources/static/
 
 ### MacOS ###
-.DS_Store/
+**/.DS_Store
 
 ### Maven ### 
 **/target/
